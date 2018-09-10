@@ -204,6 +204,21 @@ without them.
 4. `b(reak)` - Set a breakpoint (depending on the argument provided).
 5. `r(eturn)` - Continue execution until the current function returns.
 
+Other useful commands are:
+1. `a(rgs)` - print argument list
+2. `bt/ where` - stack trace, arrow indicates current frame
+3. `c(ontinue)` - continue execution
+4. `j(ump)` - jump line number
+5. `p(rint)` - print value of expression
+6. `p(retty)p(rint)` - pretty print
+7. `q(uit)` - quit
+8. `d(own)` - move down the stack trace
+9. `ret(urn)val(ue)` - return value
+10. `source` - get source code of an object
+11. `u(p)` - move to upper stack trace
+
+
+
 Notice that there are brackets around the last part of every keyword. The brackets indicate that the rest of the word is _optional_ when
 using the command prompt for `pdb`. This saves typing but a major gotcha is if you have a variable name such as `l` or `n`, then the
 `pdb` command takes precedence. That is, say you have a variable named `c` in your program and you want to know the value of `c`. Well,
