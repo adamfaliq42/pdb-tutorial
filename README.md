@@ -210,10 +210,10 @@ Other useful commands are:
 3. `c(ontinue)` - continue execution
 4. `j(ump)` - jump line number
 5. `p(rint)` - print value of expression
-6. `p(retty)p(rint)` - pretty print
-7. `q(uit)` - quit
+6. `p(retty)p(rint)` - pretty print value of expression
+7. `q(uit)` - quit pdb
 8. `d(own)` - move down the stack trace
-9. `ret(urn)val(ue)` - return value
+9. `ret(urn)val(ue)` - return value of a function
 10. `source` - get source code of an object
 11. `u(p)` - move to upper stack trace
 
